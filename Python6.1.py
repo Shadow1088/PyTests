@@ -1,6 +1,6 @@
-list1 = [230, 21, 56]
-dict1 = {}
-
+list1 = [230, 21, 56]       #########################################################################
+dict1 = {}                  #         MADE BY CHATGPT, HELPED ME WITH THE python6.py                #
+                            #########################################################################
 for index, thing in enumerate(list1):
     binary_representation = []
 
