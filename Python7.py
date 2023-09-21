@@ -1,4 +1,4 @@
-import random 
+import random ###########################   RANDOM BS    ##############################
 
 list1 = [num for num in range(50)]
 after_list1 = [num for num in random.sample(list1,15)]
