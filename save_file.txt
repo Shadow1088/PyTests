@@ -1,0 +1,15 @@
+This is the save file
+I am just a test for my kings python training
+
+555
+
+hp = 1000
+shields = 50
+coins = 0
+gold = 0
+iron = 250
+wood = 5000
+kills = 200000
+
+inventory =
+
