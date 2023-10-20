@@ -11,3 +11,7 @@ git push ("remote" "branch")
 git pull | compares and replaces with new versions (?)
 
 git clone | clones github repo
+
+# SSH key info
+ssh-keygen -t rsa -b 4096 -C "your_email@email"
+
