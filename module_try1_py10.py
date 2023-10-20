@@ -1,10 +1,9 @@
+# Created module for Python10.py
+
 def sum0(*args):
-    working_list = []
-    for b in args:
-        working_list.append(b)
-
-    total = 0
-    for element in working_list:
-        total += int(element)
-
-    return total
+    sum1 = 0
+    for i in args:
+        for j in i:  
+            sum1 += j
+              
+    print(f"The sum of the numbers is: {sum1}")
