@@ -25,3 +25,4 @@ while True:
         x = input()
     else:
         print("Correct!")
+        break
