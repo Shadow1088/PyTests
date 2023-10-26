@@ -121,7 +121,6 @@ monster_epic.attack(int(world_level*2+30))
 monster_epic.defend(int(world_level*0.5+30))
 
 
-
 monster_legendary = Monster(int(100*(world_level/5)),60,20)
 monster = "monster_legendary"
 monster_legendary.attack(int(world_level*2.5+50))

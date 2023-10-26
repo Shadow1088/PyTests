@@ -3,11 +3,13 @@
 
 import module_try1_py10 as mtp
 
-print("The numbers: ")
+print("Write the numbers: ")
 
 sum_list = []
 while True:
+    
     x = input()
+    print("okay, whats next? (end to exit)")
     if x.isdigit():
         sum_list.append(int(x))
    

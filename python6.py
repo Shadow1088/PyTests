@@ -1,4 +1,4 @@
-list1 = [11]
+list1 = [11, 15, 156]
 dict1 = {}
 start_num = 0
 
