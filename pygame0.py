@@ -32,7 +32,7 @@ elif sets.window_size == "Full":
 
 
 screen = pygame.display.set_mode((screen_width, screen_height))
-pygame.display.set_caption("Line 35, set caption")
+pygame.display.set_caption("Meteor shooter - ZZ")
 
 def QUIT():
     pygame.quit()
