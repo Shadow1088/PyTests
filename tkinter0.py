@@ -1,6 +1,6 @@
 import tkinter as tk
 
-x = False
+x = True
 
 while x == True:
 
@@ -9,7 +9,7 @@ while x == True:
     root.geometry("800x500")
     root.title("The 1st GUI!")
 
-    label = tk.Label(root, text="Filip smokes weed", font=("arial", 18))
+    label = tk.Label(root, text="x = True :skull:", font=("arial", 18))
     label.pack()
 
     root.mainloop()
