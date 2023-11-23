@@ -15,6 +15,7 @@ for i in after_list1:
     elif i == 0:
         print("***********************")
     
+    
 
 print(after_list1)
 

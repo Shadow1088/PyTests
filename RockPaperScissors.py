@@ -1,13 +1,11 @@
 import random
+
 print(f"Lets play a game called Rock, paper, scissors")
 
 p_choices = ["Rock","Paper","Scissors","R","P","S"]
 pc_choices = ["Rock","Paper","Scissors"]
 
-
-
 list1 = []
-
 running = True
 
 while running:
@@ -18,14 +16,7 @@ while running:
         player = input("Your choice?: ")
 
     computer = random.choice(pc_choices)
-    if player:
-        if player == "R":
-            player == "Rock"
-        elif player == "P":
-            player == "Paper"
-        elif player == "S":
-            player == "Scissors"
-
+    
     print (f"Player chose: {player}")
     print (f"Computer chose: {computer}")
 
