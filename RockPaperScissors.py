@@ -2,7 +2,7 @@ import random
 
 print(f"Lets play a game called Rock, paper, scissors")
 
-p_choices = ["Rock","Paper","Scissors","R","P","S"]
+p_choices = ["Rock","Paper","Scissors"]
 pc_choices = ["Rock","Paper","Scissors"]
 
 list1 = []
