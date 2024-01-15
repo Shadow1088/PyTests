@@ -19,7 +19,7 @@ def pswdShow():
 
 def pswdGen():
     global pswd
-    pswd = []
+    pswd = [] 
     try:
         for i in range(int(lenEntry.get())):
             k = random.choice(randomChoice)
