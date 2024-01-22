@@ -3,7 +3,10 @@ import sys
 import time
 import shutil
 import send2trash
+import tkinter as tk
+from tkinter import filedialog
 
+tk.Tk()
 
 cwd = os.getcwd() # get current working directory
 
@@ -21,10 +24,7 @@ def rm(path): os.remove(path)
     
 def mv(src, dst): shutil.move(src, dst)
 
-def goback(): os.chdir(".."); print(os.getcwd() + ":")
-
-def pwd(): print(cwd)
-
+def goback(): os.chdir(".."); #print(os.getcwd() + ":")
 
 while True:
     cwd = os.getcwd() # get current working directory
@@ -41,8 +41,8 @@ while True:
         elif cmd[0] == "mv": mv(cmd[1], cmd[2])
         elif cmd[0] == "exit" or "kys" or "kill": break
         elif cmd[0] == "goback": goback()
-        elif cmd[0] == "pwd": pwd()
         else: print("invalid command")
     except: print("error")
+
 
     

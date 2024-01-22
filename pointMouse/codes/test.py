@@ -9,12 +9,12 @@ screen = pygame.display.set_mode(xy)
 pygame.display.set_caption("Test")
 
 
-redRect = pygame.image.load("graphics/redrect.png")
+redRect = pygame.image.load("pointMouse/graphics/redrect.png")
 redRectScale = pygame.transform.scale(redRect, (50, 50))
 RectredRect = redRectScale.get_rect(center=(750, 450))
-redCircle = pygame.image.load("graphics/redcircle.png")
+redCircle = pygame.image.load("pointMouse/graphics/redcircle.png")
 redCircleScale = pygame.transform.scale(redCircle, (100, 100))
-redline = pygame.image.load("graphics/redline.png")
+redline = pygame.image.load("pointMouse/graphics/redline.png")
 
 class Line:
     def __init__(self, img, pos):
